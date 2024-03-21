@@ -1,0 +1,35 @@
+
+.card{
+    width: 800px;
+    height: 100px;
+    background-color: 233, 236, 239;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #22222270;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+}
+.card h3 {
+    float: left;
+
+}
+
+.card-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nome{
+    position: fixed;
+    left: 34%;
+}
+
+.cidade{
+    position: fixed;
+    left: 55%;
+}

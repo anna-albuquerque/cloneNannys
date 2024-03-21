@@ -1,0 +1,25 @@
+
+    <div class="modal" *ngIf="modalAberto">
+        <div class="contmodal">
+            <span class="close" (click)="fecharModal()">&times;</span>
+            <div class="hdois">
+                <h2>Você deseja ser:</h2>
+            </div>
+            <div class="botoes">
+                <button (click)="navigateToCadastroTutor()" class="tutor"> Tutor </button>
+                <button (click)="navigateToCadastroCuidador()" class="tutor"> Cuidador </button>
+            </div>
+        </div>
+    </div>
+    <div class="home">
+        
+        <img src="assets/img/caes.png" alt="imagem" style="width: 500px;position: absolute; top: 25%;left:100px ;"/>
+        
+        <h1 class="inter-font">A melhor plataforma de hospedagem de pets.<br>
+            Feito por pessoas que gostam de pets assim como você!</h1>
+        <a><button (click)="abrirModal()" class="cadastro">Cadastrar</button></a>
+        
+    </div>
+    
+
+

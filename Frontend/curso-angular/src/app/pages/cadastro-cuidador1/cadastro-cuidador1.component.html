@@ -1,0 +1,45 @@
+<div class="container">
+    <div class="imagem-lateral">
+      <img class="imagem1" src="/assets/img/cao4.png" alt="Background Image">
+    </div>
+    <div class="box-form">
+      <form #f="ngForm">
+        <div class="box-half">
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite o nome" name="nome" [(ngModel)]="cuidador.nome">
+          </div>
+          <div class="form-group">
+              <label for="sobrenome">Sobrenome:</label>
+              <input type="text" class="form-control" id="sobrenome" placeholder="Digite o sobrenome" name="sobrenome" [(ngModel)]="cuidador.sobrenome" >
+          </div>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite o email" name="email" [(ngModel)]="cuidador.email" >
+        </div>   
+        <div class="box-half">
+          <div class="form-group">
+            <label for="data_nascimento">Data de nascimento:</label>
+            <input type="date" class="form-control" id="data_nascimento" name="data_nascimento" [(ngModel)]="cuidador.data_nascimento"  >
+          </div>
+          <div class="form-group">
+            <label for="cpf">CPF:</label>
+            <input type="text" class="form-control" id="cpf" placeholder="Digite o cpf" name="cpf" [(ngModel)]="cuidador.cpf" >
+          </div>
+        </div> 
+        <div class="form-group">
+          <label for="cpf">Senha:</label>
+          <input type="password" class="form-control" id="senha" placeholder="Digite sua senha" name="senha"  >
+        </div>
+        <div class="form-group">
+          <label for="c_senha">Confirmar Senha:</label>
+          <input type="password" class="form-control" id="c_senha" placeholder="Digite sua senha" name="c_senha" >
+        </div>
+        <div class="box-btn">
+          <button class="btn btn-primary" (click)="onSubmit(f)">Próxima etapa</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  

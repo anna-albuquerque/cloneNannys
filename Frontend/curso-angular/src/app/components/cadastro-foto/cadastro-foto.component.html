@@ -1,0 +1,16 @@
+<div class="container">
+    <img class="imagem1" style= " height: 100vh;position: absolute;left: 0 ;"src="/assets/img/cao2.png" alt="Background Image">
+    <div class="formulario">
+      <form [formGroup]="fotoForm" (ngSubmit)="onSubmit()">
+        <!-- Exibição da imagem de perfil em um círculo -->
+        <div class="perfil-container">
+          <img src='src/img/cao3.png' alt="Imagem de Perfil">
+        </div>
+  
+        <!-- Input para seleção de foto -->
+        <input type="file" (change)="onFileSelected($event)" accept="image/*">
+  
+        <button type="submit">Próximo</button>
+      </form>
+    </div>
+  </div>

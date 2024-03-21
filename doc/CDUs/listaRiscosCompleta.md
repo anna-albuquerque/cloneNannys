@@ -1,0 +1,9 @@
+# Lista de Riscos Completa
+
+| ID |           Nome          |                     Descrição                    |          Indicador         |         Estratégia de Mitigação        |        Plano de Contingência         |
+|----|------------------------|-------------------------------------------------|-----------------------------|----------------------------------------|--------------------------------------|
+| 1  | Tempo de Implementação do Sistema      | Tempo curto (1 semestre) para desenvolver um projeto | Atraso recorrente nas entregas | Adaptação de horários, divisão eficiente das tarefas e flexibilidade dos prazos de entrega | Reatribuir tarefas ou buscar apoio externo |
+| 2  | Problemas de Saúde      | Ausência de membros devido a problemas de saúde ou outras circunstâncias pessoais | Faltas frequentes nas reuniões e atividades | Revisão das responsabilidades e possível inclusão de novos membros | Redistribuição de tarefas e solicitação de apoio externo se necessário |
+| 3  | Problemas Herdados     | Início difícil devido a problemas deixados pelo grupo anterior no projeto | Documentação conflitante ou incompleta | Análise minuciosa da documentação e ajustes necessários | Refazer a documentação ou adaptá-la conforme a necessidade |
+| 4  | Dificuldades Técnicas  | Enfrentar desafios técnicos além das expectativas do grupo | Estagnação ou atraso no desenvolvimento do projeto | Pesquisa e busca de recursos adicionais | Reavaliar a abordagem técnica, solicitar ajuda a especialistas externos |
+| 5  | Conflitos de Horários  | Os membros da equipe possuem rotinas diferentes, dificultando encontrar um horário comum a todos para reuniões | Atraso no desenvolvimento do projeto | Reuniões no final do dia após os compromissos individuais dos membros do projeto | Reavaliar a comunicação, solicitar ajuda a especialistas externos |

@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: calc(100vh - 100px);
+}
+
+.container .imagem-lateral {
+    width: 575px;
+    height: calc(100vh - 100px);
+}
+
+.container .imagem-lateral .imagem1 {
+    width: 100%;
+    height: 100%;
+}
+
+.container .box-form {
+    width: calc(100vw - 575px);
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form-group {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os elementos se movam para a próxima linha se necessário */
+    gap: 5px; /* Adiciona espaço entre os grupos de entrada */
+}
+.input-group {
+    flex-basis: calc(50% - 5px); /* Define a largura dos grupos (50% com espaço entre eles) */
+    display: flex;
+    flex-direction: column;
+}
+
+.container .form-group label {
+    font-family: 'Inter', sans-serif;
+    color: #5f6062;
+}
+
+.container .box-half {
+    display: flex;
+    gap: 15px;
+}
+
+.container .box-half .form-group {
+    width: 50%;
+}
+
+.container .form-group input {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #cbcdd0;
+    padding: 10px 15px;
+    border: none;
+    color: #6b6e72;
+}
+
+.container .box-form .box-btn {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+button{
+    background-color: #D2657F;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+}

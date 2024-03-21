@@ -1,0 +1,45 @@
+<div class="container">
+    <div class="box-form">
+        <form #f="ngForm">    
+            <button type="button" [ngClass]="{'selecionado': capacidadeAdestramento}" (click)="toggleCapacidadeAdestramento()">Capacidade de Adestramento</button>
+            
+                <button type="button" [ngClass]="{'selecionado': estudanteVeterinaria}" (click)="toggleEstudanteVeterinaria()">Estudante de Veterinária</button>
+            
+                <button type="button" [ngClass]="{'selecionado': medicoVeterinaria}" (click)="toggleMedicoVeterinario()">Médico Veterinário</button>
+                        
+                <button type="button" [ngClass]="{'selecionado': aceitaMultiplosPets}" (click)="toggleAceitaMultiplosPets()">Aceita Múltiplos Pets</button>
+            
+                <button type="button" [ngClass]="{'selecionado': cuidadorComum}" (click)="toggleCuidadorComum()">Cuidador Comum</button>
+            
+                <button type="button" [ngClass]="{'selecionado': petAte5kg}" (click)="togglePetAte5kg()">Pet até 5kg</button>
+            
+                <button type="button" [ngClass]="{'selecionado': pet5kgA10kg}" (click)="togglePet5kgA10kg()">Pet de 5kg a 10kg</button>
+
+                <button type="button" [ngClass]="{'selecionado': pet10kgA20kg}" (click)="togglePet10kgA20kg()">Pet de 10kg a 20kg</button>
+                        
+                <button type="button" [ngClass]="{'selecionado': pet20kgA40kg}" (click)="togglePet20kgA40kg()">Pet de 20kg a 40kg</button>
+            
+                <button type="button" [ngClass]="{'selecionado': soPetCastrado}" (click)="toggleSoPetCastrado()">Somente Pet Castrado</button>
+            
+                <button type="button" [ngClass]="{'selecionado': petNaoCastrado}" (click)="togglePetNaoCastrado()">Pet Não Castrado</button>
+            
+                <button type="button" [ngClass]="{'selecionado': petFemea}" (click)="togglePetFemea()">Pet Fêmea</button>
+            
+                <button type="button" class="central" [ngClass]="{'selecionado': petMacho}" (click)="togglePetMacho()">Pet Macho</button>
+            
+                <button type="button" class="central" [ngClass]="{'selecionado': medicacaoOral}" (click)="toggleMedicacaoOral()">Medicação Oral</button>
+            
+                <button type="button" class="central" [ngClass]="{'selecionado': medicacaoInjetavel}" (click)="toggleMedicacaoInjetavel()">Medicação Injetável</button>
+            
+
+                
+                <div class="box-btn">
+                    <button class="btn btn-primary" (click)="onSubmit(f)">Finalizar cadastro</button>
+                </div>
+               
+
+                
+        </form>
+    </div> 
+</div>       
+

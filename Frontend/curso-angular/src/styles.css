@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h2{
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    font-family: 'Inter', sans-serif;
+}
+
+div{
+    font-family: 'Inter', sans-serif;
+}

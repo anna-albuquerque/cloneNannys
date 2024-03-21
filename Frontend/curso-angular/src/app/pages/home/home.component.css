@@ -1,0 +1,94 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inter-font {
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    left: 40%;
+    top: 390px;
+}
+
+.cadastro{
+    position: absolute;
+    top: 510px;
+    right: 14%;
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #D2657F;
+    position: center;
+    color: white;
+    border: none;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro com opacidade */
+    z-index: 1; /* Garante que o modal esteja acima do conteúdo principal */
+    overflow: auto;
+}
+
+.modal .contmodal .hdois{
+    font-family: 'Inter', sans-serif;
+    
+}
+.contmodal {
+    background-color: #fff;
+    padding: 80px;
+    border: 1px solid #888;
+    width: 40%; /* Ajuste a largura conforme necessário */
+    text-align: center; /* Centraliza o conteúdo no modal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar o modal */
+}
+
+.hdois{
+    padding-bottom: 40px;
+}
+
+.tutor{
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #D2657F;
+    position: center;
+    color: white;
+    border: none;
+}
+
+.close {
+    position: fixed;
+    top: 350px;
+    right: 31%;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botoes{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin-top: 0; /* Remove a margem superior padrão do h2 */
+    position: relative;
+    top: 100 px;
+}
+
+/* Adiciona um espaço entre os botões */
+button {
+    margin-right: 10px;
+}

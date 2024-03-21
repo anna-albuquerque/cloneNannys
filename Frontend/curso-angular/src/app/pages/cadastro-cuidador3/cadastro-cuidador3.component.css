@@ -1,0 +1,37 @@
+.box-btn button{
+        background-color: #D2657F;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        padding: 10px 15px;
+    
+}
+.box-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+ button.selecionado {
+    background-color: #D2657F; /* ou a cor desejada */
+    color: white; /* ou a cor desejada */
+  }
+
+ button{
+    
+    height: 30px;
+    border-radius: 20px;
+    background-color: 233, 236, 239;
+    position: center;
+    color: #5f6062;
+    border: none;
+    margin: 5px 10px 15px 0; /* Adicione margens para espaçamento entre os botões */
+    width: calc(25% - 10px); 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Tornar o container ocupar 100% da altura da viewport */
+  }

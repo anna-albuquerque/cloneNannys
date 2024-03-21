@@ -1,0 +1,25 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.lista {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    
+}
+.paragrafo{
+    border-top: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0; /* Opcional: remover o preenchimento padrão da lista */
+    margin: 0; /* Opcional: remover a margem padrão da lista */
+  }
+  

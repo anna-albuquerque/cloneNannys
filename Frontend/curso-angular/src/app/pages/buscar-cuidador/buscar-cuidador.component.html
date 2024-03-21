@@ -1,0 +1,68 @@
+<div class="container">
+    <div class="box-filtro">
+        <form (ngSubmit)="submit()" #filtroForm="ngForm">   
+
+                <button type="button" [ngClass]="{'selecionado': capacidadeAdestramento}" (click)="toggleCapacidadeAdestramento()">Capacidade de Adestramento</button>
+            
+                <button type="button" [ngClass]="{'selecionado': estudanteVeterinaria}" (click)="toggleEstudanteVeterinaria()">Estudante de Veterinária</button>
+            
+                <button type="button" [ngClass]="{'selecionado': medicoVeterinaria}" (click)="toggleMedicoVeterinaria()">Médico Veterinário</button>
+                        
+                <button type="button" [ngClass]="{'selecionado': aceitaMultiplosPets}" (click)="toggleAceitaMultiplosPets()">Aceita Múltiplos Pets</button>
+            
+                <button type="button" [ngClass]="{'selecionado': cuidadorComum}" (click)="toggleCuidadorComum()">Cuidador Comum</button>
+            
+                <button type="button" [ngClass]="{'selecionado': petAte5kg}" (click)="togglePetAte5kg()">Pet até 5kg</button>
+            
+                <button type="button" [ngClass]="{'selecionado': pet5kgA10kg}" (click)="togglePet5kgA10kg()">Pet de 5kg a 10kg</button>
+
+                <button type="button" [ngClass]="{'selecionado': pet10kgA20kg}" (click)="togglePet10kgA20kg()">Pet de 10kg a 20kg</button>
+                        
+                <button type="button" [ngClass]="{'selecionado': pet20kgA40kg}" (click)="togglePet20kgA40kg()">Pet de 20kg a 40kg</button>
+            
+                <button type="button" [ngClass]="{'selecionado': soPetCastrado}" (click)="toggleSoPetCastrado()">Somente Pet Castrado</button>
+            
+                <button type="button" [ngClass]="{'selecionado': petNaoCastrado}" (click)="togglePetNaoCastrado()">Pet Não Castrado</button>
+            
+                <button type="button" [ngClass]="{'selecionado': petFemea}" (click)="togglePetFemea()">Pet Fêmea</button>
+            
+                <button type="button" class="central" [ngClass]="{'selecionado': petMacho}" (click)="togglePetMacho()">Pet Macho</button>
+            
+                <button type="button" class="central" [ngClass]="{'selecionado': medicacaoOral}" (click)="toggleMedicacaoOral()">Medicação Oral</button>
+            
+                <button type="button" class="central" [ngClass]="{'selecionado': medicacaoInjetavel}" (click)="toggleMedicacaoInjetavel()">Medicação Injetável</button>
+            
+            <div class="submit-group">
+                <button type="submit" class="submit">Filtrar</button>
+            </div>
+        </form>
+    </div>
+    <div *ngIf="submitClicado && cuidadoresFiltrados.length === 0">
+        Nenhum cuidador encontrado com as características selecionadas.
+      </div>
+      
+      <ul *ngIf="submitClicado && cuidadoresFiltrados.length > 0">
+        <li *ngFor="let cuidador of cuidadoresFiltrados">
+          {{ cuidador.nome }} 
+        </li>
+      </ul>
+</div>
+
+
+
+
+<!-- estudante_de_veterinaria: boolean;
+medico_veterinaria: boolean;
+capacidade_adestramento: boolean;
+aceita_multiplos_pets: boolean;
+cuidador_comum: string;
+pet_ate_5kg: string;
+pet_5kg_a_10kg: string;
+pet_10kg_a_20kg: string;
+pet_20kg_a_40kg: boolean;
+so_pet_castrado: boolean;
+pet_nao_castrado: boolean;
+pet_femea: boolean;
+pet_macho: boolean;
+medicacao_oral: boolean;
+medicacao_injetavel: boolean; -->

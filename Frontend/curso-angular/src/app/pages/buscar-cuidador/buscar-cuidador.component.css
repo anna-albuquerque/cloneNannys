@@ -1,0 +1,64 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Tornar o container ocupar 100% da altura da viewport */
+  }
+  
+  .box-filtro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Ou 'space-between', dependendo da preferência de espaçamento */
+    max-width: 1000px; /* Defina o valor desejado para o máximo de largura do box-filtro */
+  }
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os elementos se movam para a próxima linha se necessário */
+    gap: 5px; /* Adiciona espaço entre os grupos de entrada */
+}
+
+button.selecionado {
+    background-color: #D2657F; /* ou a cor desejada */
+    color: white; /* ou a cor desejada */
+  }
+
+.central {
+    width: calc(33.33% - 10px); /* Calcula 33.33% da largura com margem de 5px em cada lado */
+    
+}
+
+button{
+    
+    height: 30px;
+    border-radius: 20px;
+    background-color: 233, 236, 239;
+    position: center;
+    color: #5f6062;
+    border: none;
+    margin: 5px 10px 15px 0; /* Adicione margens para espaçamento entre os botões */
+    width: calc(25% - 10px); 
+}
+
+.submit-group {
+    width: 100%;
+    text-align: center;
+  }
+
+.submit{
+    background-color: #D2657F;
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    border-color: #D2657F;
+
+}
+
+
+.container .form-group button {
+    font-family: 'Inter', sans-serif;
+    color: #5f6062;
+}
+
