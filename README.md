@@ -49,3 +49,27 @@ Reuniões on-line nas segunda-feira às 20h e em outro dia da semana que sempre 
 * [Dicionário de Dados](doc/DicionarioDeDados/DicionarioDeDados.md)
 * [Protótipos de interface com o usuário](doc/prototipos/prototipos.md)
 * [Guia do desenvolvedor](guia-receber-pets.md)
+
+
+## Prepação do ambiente 
+Execute na pasta raiz da aplicação
+```
+python -m venv venv
+.\venv\Scripts\activate
+python.exe -m pip install --upgrade pip
+pip install --upgrade setuptools
+pip install flask requests
+pip install -r requirements.txt 
+```
+
+## Encerramento do ambiente
+```
+deactivate
+rm venv
+```
+
+# Na pasta do Frontend\curso-angular
+``` 
+npm install
+npm audit fix
+```
