@@ -10,7 +10,7 @@ import { Caracteristicas } from '../Caracteristicas';
 })
 export class CuidadorService {
 
-  url = 'http://127.0.0.1:8000/api/v1/';
+  url = 'https://annacarolinneam.pythonanywhere.com/api/v1/';
 
   constructor(private http: HttpClient) { }
 

@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ListService {
-  private apiUrl = 'http://localhost:3000/animals'
+  private apiUrl = 'https://annacarolinneam.pythonanywhere.com/api/v1/'
 
 
   constructor(private http: HttpClient) { }
