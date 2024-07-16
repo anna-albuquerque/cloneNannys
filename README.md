@@ -72,5 +72,9 @@ rm venv
 # Na pasta do Frontend\curso-angular
 ``` 
 npm install
+npm install -g @angular/cli
 npm audit fix
+ng build --configuration=production
+npm install -g vercel
+vercel
 ```
