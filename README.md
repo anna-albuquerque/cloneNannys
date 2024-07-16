@@ -60,6 +60,7 @@ python.exe -m pip install --upgrade pip
 pip install --upgrade setuptools
 pip install flask requests
 pip install -r requirements.txt 
+npm install -g @angular/cli
 ```
 
 ## Encerramento do ambiente
