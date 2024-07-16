@@ -1,5 +1,5 @@
 # Use a imagem do Node.js 18 para a construção da aplicação
-FROM node:18 AS build
+FROM node:20 AS build
 
 # Defina o diretório de trabalho dentro do container
 WORKDIR /app
